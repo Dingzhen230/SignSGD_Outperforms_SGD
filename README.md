@@ -131,3 +131,15 @@ python show_llm_sparse.py
 > **Note on Sparsity Sampling:** > By default, the `noise.sh` script employs a three-phase sampling strategy (tracking noise only at the start, middle, and end of training for a few steps each) to minimize computational overhead. This is sufficient to demonstrate our core finding that noise becomes increasingly sparse over time.
 >
 > If you wish to reproduce the continuous, full-stage sparsity evolution exactly as presented in our paper's figure, please change the `sample_itr` parameter in the script to match the total `ITERATIONS`. The script will then record the density metrics continuously across the entire training procedure.
+
+## Reference
+If you find our work helpful, feel free to cite
+
+```
+@article{tao2026when,
+  title={{When and Why SignSGD Outperforms SGD: A Theoretical Study Based on $\ell_1$-norm Lower Bounds}},
+  author={Tao, Hongyi and Yu, Dingzhi and Zhang, Lijun},
+  journal={arXiv preprint arXiv:2605.06615},
+  year={2026}
+}
+```
