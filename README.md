@@ -9,7 +9,7 @@ The primary objective of this repository is to facilitate the exact reproduction
 The repository is organized into three main directories:
 
 1. `resnet_expt/`: Contains the implementation for training ResNet-20 on the CIFAR-10 dataset.
-2. `nanoGPT_expts/`: Contains the scripts for training nanoGPT on the C4 dataset and estimating gradient density ($\phi$).
+2. `nanoGPT_expts/`: Contains the scripts for training nanoGPT on the C4 dataset and estimating noise density ($\phi$).
 3. `toy_problem/`: Contains the simplified constructed examples demonstrating the robustness of SignSGD over standard SGD, used to generate Figure X [Please replace X with actual figure number].
 
 ------
